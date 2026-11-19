@@ -76,8 +76,6 @@ y `frontend/package.json` / `package-lock.json`).
 
 ```text
 ALUMGLASS/
-├── .gitignore                     # Ignorados globales del monorepo
-├── README.md                      # Este archivo
 │
 ├── backend/                       # Aplicación Django
 │   ├── manage.py                  # Utilidad de línea de comandos de Django
@@ -107,12 +105,6 @@ ALUMGLASS/
 │   ├── .gitignore                 # Ignorados propios del frontend
 │   ├── node_modules/              # Dependencias instaladas (no se versiona)
 │   └── .next/                     # Build/caché de Next.js (no se versiona)
-│
-└── venv/                          # Entorno virtual de Python (no se versiona)
-    ├── Include/
-    ├── Lib/                       # Paquetes instalados (Django, DRF, etc.)
-    └── Scripts/                   # python, pip, django-admin, activate...
-```
 
 ### Capas y responsabilidades
 
